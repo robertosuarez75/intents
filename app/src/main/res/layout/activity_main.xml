@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/buttonOpenNav"
+
+
+       android:text="open nav"
+       android:layout_margin="2dp"
+       android:onClick="openNav"
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/buttonMaps"
+       android:text="open maps"
+       android:layout_margin="2dp"
+       android:onClick="openMaps"
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/buttoTEL"
+       android:text="llamar"
+       android:layout_margin="2dp"
+       android:onClick="openTel"
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/buttoSMS"
+       android:text="enviar sms"
+       android:layout_margin="2dp"
+       android:onClick="openSMS"
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/buttoMail"
+       android:text="enviar mail"
+       android:layout_margin="2dp"
+       android:onClick="openMail"
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/buttoCamera"
+       android:text="camara"
+       android:layout_margin="2dp"
+       android:onClick="openCamera"
+       />
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/imageViewPicture"/>
+
+</LinearLayout>
