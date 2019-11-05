@@ -62,6 +62,12 @@
        android:layout_margin="2dp"
        android:onClick="openCamera"
        />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="sin funcion asociada"
+      android:id="@+id/btnEmpty"
+      android:layout_margin="2dp"/>
 
    <ImageView
        android:layout_width="match_parent"
