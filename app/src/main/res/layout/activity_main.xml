@@ -76,6 +76,13 @@
       android:id="@+id/btnEmpty2"
       android:layout_margin="2dp"/>
 
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="sin funcion asociada"
+      android:id="@+id/btnEmpty3"
+      android:layout_margin="2dp"/>
+
    <ImageView
        android:layout_width="match_parent"
        android:layout_height="match_parent"
